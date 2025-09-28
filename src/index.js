@@ -1,2 +1,4 @@
-import "./style.css"
-import "./home.js"
+import "./style.css";
+import { loadHomepage } from "./home";
+
+loadHomepage();

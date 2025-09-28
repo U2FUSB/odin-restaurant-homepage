@@ -4,6 +4,10 @@ import img3 from "../pictures/pexels-catscoming-1907229.jpg";
 import img4 from "../pictures/pexels-rdne-6646369.jpg";
 import img5 from "../pictures/pexels-yulius-santoso-1587812313-30992156.jpg";
 
+export function loadHomepage() {
+    elementArray.forEach((element) => divContent.appendChild(element));
+}
+
 const divContent = document.body.querySelector("#content");
 
 const title = document.createElement("h1");
@@ -44,5 +48,3 @@ mission.className = "mission";
 selfLove.textContent =
     "We are not just a restaurant, but an idea of heriosm and rightfulnes.";
 selfLove.className = "selfLove";
-
-elementArray.forEach((element) => divContent.appendChild(element));
