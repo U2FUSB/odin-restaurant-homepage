@@ -1,0 +1,18 @@
+.menuFrame {
+    border-style: solid;
+    border-radius: 10%;
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+    background-color: aliceblue;
+    row-gap: 1rem;
+}
+
+.menuElement {
+    border-style: solid;
+    border-radius: 10%;
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
+    background-color: rgb(207, 228, 246);
+}
